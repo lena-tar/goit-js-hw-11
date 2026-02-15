@@ -29,9 +29,13 @@
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.04em;
-  color: #808080;
+  color: #2e2f42;
 
   padding-left: 16px;
+}
+
+.form input::placeholder {
+  color: #808080;
 }
 
 .form input:hover {
@@ -58,9 +62,7 @@
   letter-spacing: 0.04em;
   color: #fff;
 
-  transition:
-    border-color 250ms ease,
-    box-shadow 250ms ease;
+  transition: background-color 250ms ease;
 }
 
 .form button:hover,
